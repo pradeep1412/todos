@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- title -->
+    <section class="title-sec">
+        <div>
+            <h1>Todos</h1>
+        </div>
+    </section>
+    <!-- todo list -->
+    <section class="todo-sec">
+        <div class="todo-list">
+            <h2>Todo List</h2>
+            <ul id="todolists">
+                <!-- rending todo list -->
+            </ul>
+            <button class="custom-button" id="add-btn">add</button>
+            <div id="add-input">
+                <textarea type="text" id="input-txt"></textarea>
+                <button class="custom-button" id="btn-send">send</button>
+            </div>
+        </div>
+        <div class="done-list">
+            <h2>Done/Dusted list</h2>
+            <ul id="donelists">
+                <li></li>
+                <!-- rending done list -->
+            </ul>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>

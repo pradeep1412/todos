@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.title-sec {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.todo-sec{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+#input-txt{
+    height: 96px;
+    overflow-y: hidden;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.custom-button:hover {
+    background-color: #0056b3;
+}
+  
+.custom-button:active {
+    background-color: #003d80;
+}
+
+#add-input{
+    display: none;
+}
+
+
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;
+}
+
+li{
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+li:hover {
+    border-radius: 8px;
+    background-color: #d0d0d0;
+}
+
+li:active {
+    cursor: grabbing;
+}
+
+#donelists, #todolists{
+    min-height: 34px;
+    background-color: #202124;
+    border: 1px solid black;
+}
